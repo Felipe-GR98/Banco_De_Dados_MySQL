@@ -34,4 +34,4 @@ SELECT * FROM tb_estudantes WHERE nota < 7.0;
 
 UPDATE tb_estudantes SET nota = 10.0 WHERE numero_matricula = 8;
 
-ALTER TABLE  tb_estudantes MODIFY nota DECIMAL(6,1);
+ALTER TABLE  tb_estudantes MODIFY nota DECIMAL(3,1);
